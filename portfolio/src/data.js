@@ -1,34 +1,39 @@
+import currency from "./assests/currency.png";
+import stay from "./assests/stayhaven.jpg";
+import book from "./assests/Untitled.png";
+import note from "./assests/note.png";
+
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "StayHaven",
+    subtitle: "Group Project",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
+    image: stay,
     link: "https://reactbootcamp.com",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "MoneyMail",
+    subtitle: "Group Project",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
+    image: currency,
     link: "https://reedbarger.com",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Book Search",
+    subtitle: "MERN Stack app",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
+    image: book,
     link: "https://jsbootcamp.com",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Note Taker",
+    subtitle: "Express.js",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
+    image: note,
     link: "https://pythonbootcamp.com",
   },
 ];
