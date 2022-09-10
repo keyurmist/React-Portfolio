@@ -8,41 +8,41 @@ export const projects = [
     title: "StayHaven",
     subtitle: "Group Project",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "Stayhaven, a Full Stack application made by Team Sequelize. Essentially a quick, responsive website hosted on Heroku in which prospective tennants and landlords can use.",
     image: stay,
-    link: "https://reactbootcamp.com",
+    link: "https://radiant-bayou-46133.herokuapp.com/",
   },
   {
     title: "MoneyMail",
     subtitle: "Group Project",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "MoneyMail. An app that allows you to exchange currencies with a click of a button. The chosen currencies will display news articles, informing users of current news surrounding the currency.",
     image: currency,
-    link: "https://reedbarger.com",
+    link: "https://ss12932.github.io/currency-news-project/",
   },
   {
     title: "Book Search",
     subtitle: "MERN Stack app",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This application is an interactive book search which allows you to log in and save your books that you search. It follows the MERN stack, so the technologies include React.js, MonogDB, Express.js, Node.JS.",
     image: book,
-    link: "https://jsbootcamp.com",
+    link: "https://keyur-book-search.herokuapp.com/",
   },
   {
     title: "Note Taker",
     subtitle: "Express.js",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This project uses express.js to create a note taker app. It allows you to write, save and delete any notes.",
     image: note,
-    link: "https://pythonbootcamp.com",
+    link: "https://keyur-note-taker.herokuapp.com/",
   },
 ];
 
 export const skills = [
   "JavaScript",
   "React",
-  "Next.js",
+  "Express.js",
   "Node",
   "GraphQL",
-  "Material UI",
+  "Tailwind",
 ];
