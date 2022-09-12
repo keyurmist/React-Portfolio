@@ -38,7 +38,7 @@ nodemon or npm start
 ## Media
 
 Below is the start of the portfolio page:
-![react](./Untitled.png)
+![react](./updated.png)
 
 ## License
 
