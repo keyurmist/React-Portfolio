@@ -5,16 +5,18 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer />
+      <Wrapper>
+        <Navbar />
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
+      </Wrapper>
     </main>
   );
 }
