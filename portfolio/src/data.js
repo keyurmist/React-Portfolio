@@ -45,4 +45,6 @@ export const skills = [
   "Node",
   "GraphQL",
   "Tailwind",
+  "HTML",
+  "CSS",
 ];

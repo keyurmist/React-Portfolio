@@ -5,14 +5,21 @@ export default function About() {
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-center md:text-left mb-16 md:mb-0 items-center text-center ">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+        <div className="max-w-[900px] lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-center md:text-left mb-16 md:mb-0 items-center text-center ">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white font-bold">
             Hi, I'm Keyur.
-            <br className="hidden lg:inline-block" />I love to code
+            <br className="hidden lg:inline-block text-base" />
+            Aspiring Web Developer.
           </h1>
           <p className="mb-8 leading-relaxed">
             I'm 28, currently on a Web Dev Bootcamp provided by the University
-            of Birmingham
+            of Birmingham. Looking forward to improve my skills by making new
+            applications and gain experience.
+          </p>
+          <p className="mb-8 leading-relaxed">
+            I had originally taken a degree in Civil Engineering but decided it
+            was time to switch careers in a meaningful way, into something I
+            enjoyed.
           </p>
           <div className="flex justify-center">
             <a
