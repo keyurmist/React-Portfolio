@@ -10,25 +10,25 @@ const socialLinks = [
   {
     id: 2,
     icon: <FaLinkedin />,
-    url: "https://linkedin.com",
+    url: "https://linkedin.com/in/keyur-mistry-15a303235",
   },
   {
     id: 3,
     icon: <FaFacebook />,
-    url: "https://",
+    url: "https://facebook.com/keyur.mistry.568",
   },
 ];
 
 const Footer = () => {
   return (
     <div className="container mx-auto">
-      <div className=" sm:pt-30 pb-8 mt-20 ">
+      <div className=" sm:pt-30 pb-2 mt-8 ">
         {/* Footer social links */}
-        <div className="font-general-regular flex flex-col justify-center items-center mb-12 sm:mb-28">
-          <p className="text-3xl sm:text-4xl text-primary-dark dark:text-primary-light mb-5">
+        <div className="font-general-regular flex flex-col justify-center items-center mb-8">
+          <p className="text-2xl sm:text-3xl text-primary-dark dark:text-primary-light mb-4">
             Follow me
           </p>
-          <ul className="flex gap-4 sm:gap-8">
+          <ul className="flex gap-2 sm:gap-8">
             {socialLinks.map((link) => (
               <a
                 href={link.url}
